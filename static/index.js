@@ -262,6 +262,9 @@ function gameTapEvent(e) {
         tar.className = tar.className.replace(_ttreg, ' tt$1');
         _gameBBListIndex++;
         _gameScore++;
+	_gameScore++;
+	_gameScore++;
+	_gameScore++;
         gameLayerMoveNextRow();
     } else if (_gameStart && !tar.notEmpty) {
         createjs.Sound.play("err");
